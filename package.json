@@ -82,7 +82,7 @@
         "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
       },
       {
-        "key": "ctrl+g",
+        "key": "ctrl+h",
         "command": "workbench.view.explorer"
       },
       {
@@ -90,14 +90,9 @@
         "command": "workbench.action.focusActiveEditorGroup"
       },
       {
-        "key": "ctrl+y",
-        "command": "workbench.files.action.focusFilesExplorer",
-        "when": "editorFocus"
-      },
-      {
         "key": "ctrl+j",
         "command": "workbench.action.terminal.focus",
-        "when": "!suggestWidgetVisible && editorFocus"
+        "when": "!suggestWidgetVisible"
       },
       {
         "key": "ctrl+k",

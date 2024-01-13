@@ -1,22 +1,31 @@
-# Welcome to your VS Code Extension
-
-## What's in the folder
-
-* This folder contains all of the files necessary for your extension pack.
-* `package.json` - this is the manifest file that defines the list of keybindings of the extension.
-
-## Get up and running straight away
-
-* Press `F5` to open a new window with your extension loaded.
-* Press `Ctrl+.` instead of `Ctrl+Shift+P`.
-* Verify that it will launch the Command Palette listing all available commands. The `Ctrl+.` keyboard shortcut was added as an example to you.
-
-## Make changes
-
-* You can relaunch the extension from the debug toolbar after making changes to the files listed above.
-* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
-
-## Install your extension
-
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+| Key Combination | Usage                                     | Context                                                                                                                |
+| --------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `a`             | Create a new file                         | Explorer view, when focusing on files and not at the root                                                              |
+| `shift+a`       | Create a new folder                       | Explorer view, when focusing on files and not at the root                                                              |
+| `s`             | Open to side                              | Explorer view, when explorer is visible and focused                                                                    |
+| `f`             | Create a new folder                       | Explorer view, when focusing on files and not at the root                                                              |
+| `y`             | Copy selected files                       | Explorer view, when focusing on files and not at the root                                                              |
+| `x`             | Cut selected files                        | Explorer view, when focusing on files and not at the root                                                              |
+| `p`             | Paste                                     | Explorer view, when explorer is visible and not readonly, and not in input focus                                       |
+| `r`             | Rename file                               | Explorer view, when focusing on files and not at the root, not readonly, and not in input focus                        |
+| `d`             | Move to Trash                             | Explorer view, when movable to trash, explorer is visible, and focusing on files, not readonly, and not in input focus |
+| `c`             | Collapse Explorer Folders                 | Explorer view, when explorer is visible, focusing on files, not readonly, and not in input focus                       |
+| `t`             | Open in Terminal                          | Explorer view, when focusing on files and not at the root                                                              |
+| `u`             | Copy File Path                            | Explorer view, when explorer is visible and in focus                                                                   |
+| `i`             | Copy Relative File Path                   | Explorer view, when explorer is visible and in focus                                                                   |
+| `ctrl+l`        | Focus Active Editor Group                 |                                                                                                                        |
+| `ctrl+j`        | Focus Terminal                            | Not in suggest widget visibility and editor is focused (not working)                                                   |
+| `ctrl+k`        | Focus Active Editor Group                 | Not in suggest widget visibility                                                                                       |
+| `ctrl+k`        | Select Previous Suggestion                | Editor text is focused and suggest widget is visible                                                                   |
+| `ctrl+x`        | Kill Terminal                             |                                                                                                                        |
+| `ctrl+shift+j`  | Focus Next Terminal                       |                                                                                                                        |
+| `ctrl+shift+k`  | Focus Previous Terminal                   |                                                                                                                        |
+| `shift+alt+j`   | Scroll Down in Terminal                   | Terminal is focused and process is supported                                                                           |
+| `shift+alt+k`   | Scroll Up in Terminal                     | Terminal is focused and process is supported                                                                           |
+| `alt+j`         | Scroll Down Page in Terminal              | Terminal is focused and process is supported                                                                           |
+| `alt+k`         | Scroll Up Page in Terminal                | Terminal is focused and process is supported                                                                           |
+| `ctrl+j`        | Navigate down in Quick Open (File Picker) | In Quick Open                                                                                                          |
+| `ctrl+k`        | Navigate up in Quick Open (File Picker)   | In Quick Open                                                                                                          |
+| `ctrl+o`        | Close Quick Open (File Picker)            | In Quick Open                                                                                                          |
+| `alt+k`         | Move Lines Up in Editor                   | Editor is focused                                                                                                      |
+| `alt+j`         | Move Lines Down in Editor                 | Editor is focused                                                                                                      |
