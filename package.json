@@ -6,7 +6,7 @@
   "publisher": "masira1327",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajesh-1252/masira-mvim.git"
+    "url": "https://github.com/rajesh-1252/masira-mvim"
   },
   "engines": {
     "vscode": "^1.85.0"
