@@ -2,7 +2,7 @@
   "name": "masira-mvim",
   "displayName": "masira-mvim",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "masira1327",
   "repository": {
     "type": "git",
@@ -86,6 +86,14 @@
         "command": "workbench.view.explorer"
       },
       {
+        "key": "ctrl+h",
+        "command": "-editor.action.startFindReplaceAction"
+      },
+      {
+        "key": "ctrl+h",
+        "command": "-extension.vim_ctrl+h"
+      },
+      {
         "key": "ctrl+l",
         "command": "workbench.action.focusActiveEditorGroup"
       },
@@ -160,6 +168,89 @@
         "key": "alt+j",
         "command": "editor.action.moveLinesDownAction",
         "when": "editorFocus"
+      },
+      {
+        "key": "ctrl+m",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "j",
+        "command": "editor.action.scrollDownHover",
+        "when": "editorHoverFocused"
+      },
+      {
+        "key": "k",
+        "command": "editor.action.scrollUpHover",
+        "when": "editorHoverFocused"
+      },
+      {
+        "key": "l",
+        "command": "editor.action.scrollLeftHover",
+        "when": "editorHoverFocused"
+      },
+      {
+        "key": "h",
+        "command": "editor.action.scrollRightHover",
+        "when": "editorHoverFocused"
+      },
+      {
+        "key": "ctrl+n",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
+      },
+      {
+        "key": "ctrl+p",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
+      },
+      {
+        "key": "ctrl+u",
+        "command": "toggleFindCaseSensitive",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
+      },
+      {
+        "key": "ctrl+i",
+        "command": "toggleFindWholeWord",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
+      },
+      {
+        "key": "ctrl+o",
+        "command": "toggleFindRegex",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
+      },
+      {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFindInputFocused && terminalHasBeenCreated || terminalFindInputFocused && terminalProcessSupported"
+      },
+      {
+        "key": "ctrl+p",
+        "command": "workbench.action.terminal.findPrevious",
+        "when": "terminalFindInputFocused && terminalHasBeenCreated || terminalFindInputFocused && terminalProcessSupported"
+      },
+      {
+        "key": "ctrl+u",
+        "command": "workbench.action.terminal.toggleFindCaseSensitive",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+      },
+      {
+        "key": "ctrl+i",
+        "command": "workbench.action.terminal.toggleFindWholeWord",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+      },
+      {
+        "key": "ctrl+o",
+        "command": "workbench.action.terminal.toggleFindRegex",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+      },
+      {
+        "key": "ctrl+shift+h",
+        "command": "workbench.action.moveEditorLeftInGroup"
+      },
+      {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.moveEditorRightInGroup"
       }
     ]
   }
