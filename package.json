@@ -1,0 +1,171 @@
+{
+  "name": "masira-mvim",
+  "displayName": "masira-mvim",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "masira1327",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajesh-1252/masira-mvim.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+      },
+      {
+        "key": "shift+a",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+      },
+      {
+        "key": "s",
+        "command": "explorer.openToSide",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+      },
+      {
+        "key": "f",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+      },
+      {
+        "key": "y",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+      },
+      {
+        "key": "x",
+        "command": "filesExplorer.cut",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+      },
+      {
+        "key": "p",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+      },
+      {
+        "key": "r",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+      },
+      {
+        "key": "d",
+        "command": "moveFileToTrash",
+        "when": "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+      },
+      {
+        "key": "c",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+      },
+      {
+        "key": "t",
+        "command": "openInTerminal",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+      },
+      {
+        "key": "u",
+        "command": "copyFilePath",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+      },
+      {
+        "key": "i",
+        "command": "copyRelativeFilePath",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+      },
+      {
+        "key": "ctrl+g",
+        "command": "workbench.view.explorer"
+      },
+      {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusActiveEditorGroup"
+      },
+      {
+        "key": "ctrl+y",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "editorFocus"
+      },
+      {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.focus",
+        "when": "!suggestWidgetVisible && editorFocus"
+      },
+      {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!suggestWidgetVisible"
+      },
+      {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
+      },
+      {
+        "key": "ctrl+x",
+        "command": "workbench.action.terminal.kill"
+      },
+      {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.terminal.focusNext"
+      },
+      {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.terminal.focusPrevious"
+      },
+      {
+        "key": "shift+alt+j",
+        "command": "workbench.action.terminal.scrollDown",
+        "when": "terminalFocus && terminalProcessSupported"
+      },
+      {
+        "key": "shift+alt+k",
+        "command": "workbench.action.terminal.scrollUp",
+        "when": "terminalFocus && terminalProcessSupported"
+      },
+      {
+        "key": "alt+j",
+        "command": "workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocus && terminalProcessSupported"
+      },
+      {
+        "key": "alt+k",
+        "command": "workbench.action.terminal.scrollUpPage",
+        "when": "terminalFocus && terminalProcessSupported"
+      },
+      {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inQuickOpen"
+      },
+      {
+        "key": "ctrl+k",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inQuickOpen"
+      },
+      {
+        "key": "ctrl+o",
+        "command": "workbench.action.closeQuickOpen",
+        "when": "inQuickOpen"
+      },
+      {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorFocus"
+      },
+      {
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorFocus"
+      }
+    ]
+  }
+}
