@@ -31,3 +31,4 @@
 | `ctrl+o`        | Close Quick Open (File Picker)                | In Quick Open                                                                                                          |
 | `alt+k`         | Move Lines Up in Editor                       | Editor is focused                                                                                                      |
 | `alt+j`         | Move Lines Down in Editor                     | Editor is focused                                                                                                      |
+| `ctrl+shift+l`  | Move Lines Down in Editor                     | Editor is focused                                                                                                      |
